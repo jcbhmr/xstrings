@@ -1,35 +1,19 @@
-# xstrings
+# eXtended Go standard library
 
-🌸 `xstrings` is to `strings` as `xiter` is to `iter`
+🌸 Plethora of extensions to Go's std packages
 
 ## Installation
 
 ```sh
-go get github.com/jcbhmr/xstrings
+go get go.jcbhmr.com/xstd
 ```
 
 ## Usage
 
-[📚 See the documentation for details.](https://pkg.go.dev/github.com/jcbhmr/xstrings)
+Make sure you [search the std packages first](https://pkg.go.dev/) to see if your function is already part of the standard library.
 
-```go
-// https://www.poetryfoundation.org/poems/42916/jabberwocky
-fmt.Println(xstrings.Dedent(`
-    ’Twas brillig, and the slithy toves
-          Did gyre and gimble in the wabe:
-    All mimsy were the borogoves,
-          And the mome raths outgrabe.
-
-    ...
-`))
-// Output:
-// ’Twas brillig, and the slithy toves
-//        Did gyre and gimble in the wabe:
-//  All mimsy were the borogoves,
-//        And the mome raths outgrabe.
-```
+[📚 See the documentation for API details.](https://pkg.go.dev/go.jcbhmr.com/xstd)
 
 ## Development
 
-- Make sure each function has at least one example
-- Make sure each function has at least one test
+TODO
