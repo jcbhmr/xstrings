@@ -10,7 +10,7 @@ go get go.jcbhmr.com/xstd
 
 ## Usage
 
-Make sure you [search the std packages first](https://pkg.go.dev/) to see if your function is already part of the standard library.
+Make sure you [search the std packages first](https://pkg.go.dev/std) to see if your function is already part of the standard library.
 
 [📚 See the documentation for API details.](https://pkg.go.dev/go.jcbhmr.com/xstd)
 
