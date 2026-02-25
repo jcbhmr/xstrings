@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jcbhmr/xstrings"
+	"go.jcbhmr.com/xstd/xstrings"
 )
 
 func ExampleDedent() {
