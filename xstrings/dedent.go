@@ -18,7 +18,7 @@ func Dedent(s string) string {
 	// The closing line's whitespace is removed.
 	// The closing line's preceding /\r?\n/ is removed.
 	s = strings.TrimRight(s, " \t")
-	if len(s) >= 1 && s[len(s)-1] != '\n' {
+	if len(s) >= 1 && s[len(s)-1] == '\n' {
 		s = s[:len(s)-1]
 		if len(s) >= 1 && s[len(s)-1] == '\r' {
 			s = s[:len(s)-1]
